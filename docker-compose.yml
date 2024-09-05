@@ -26,10 +26,10 @@ services:
     volumes:
       - data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: 'root'
-      MYSQL_DATABASE: mtldb
-      MYSQL_USER: muhammedrahilm
-      MYSQL_PASSWORD: '123'
+      MYSQL_ROOT_PASSWORD: ${DATABASE_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_USER: ${DATABASE_USER}
+      MYSQL_PASSWORD: ${DATABASE_PASSWORD}
 
 volumes:
   data:
