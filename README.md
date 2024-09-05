@@ -92,7 +92,7 @@ DATABASES = dict(default={
     'NAME': str(os.getenv('DATABASE_NAME')),
     'USER': str(os.getenv('DATABASE_USER')),
     'PASSWORD': str(os.getenv('DATABASE_PASSWORD')),
-    'HOST': str(os.getenv('DATABASE_HOST')),
+    'PORT': str(os.getenv('DATABASE_PORT')),
     'PORT': '3306',
     'OPTIONS': {
         'charset': 'utf8mb4',
