@@ -1,8 +1,6 @@
 # Dockerizing-a-Django-and-MySQL-Application
 How to Connect your MySQL Database to your Dockerized Django Application.  making it easier to develop and deploy. In this tutorial, we will walk you through the process of dockerizing a Django and MySQL application.
 
-
-
 ### Step 1: Create a Dockerfile
 
 In your Django project’s root directory, create a Dockerfile. This file defines how your Django application should be built inside a Docker container. Here's a basic Dockerfile for a Django application:
