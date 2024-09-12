@@ -78,7 +78,6 @@ DATABASE_PORT=3306
 DATABASE_ROOT_PASSWORD=root-password
 
 ```
-
 ### Step 4: Configure Django Settings 
 
 In your Django project’s settings.py, make sure you read environment variables for sensitive information like SECRET_KEY and database settings. For example:
